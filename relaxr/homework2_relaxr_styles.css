@@ -7,14 +7,14 @@ header {
 	background-image: url("homework2_headerimage.jpg");
 	background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-position: top; 
+    background-position: top;
     font-size: 24px;
     font-weight: 600;
 	color: white;
 	padding: 0 0 100px 0;
 
 }
-
+/*ND: What's happening with the spacing here? You have four lines indented in more than the others*/
 
 h1 {
 	font-weight: 800;
@@ -47,7 +47,7 @@ header p {
 	padding: auto 0 25px 0;
 
 }
-
+/*ND: Don't need an extra line before the closing tag*/
 
 section.benefitsbox h2 {
 	font-size: 20px;
@@ -55,7 +55,8 @@ section.benefitsbox h2 {
 	color: #033048;
 	padding: 25px 25px 0 40px;
 }
-
+/*ND: So since you gave only that section the class of benefitsbox, you don't need to specify the
+section element for this to work */
 
 section.benefitsbox p {
 	font-size: 13px;
@@ -95,7 +96,7 @@ section.testimonialbox p {
 	padding: 60px 25px 0 40px;
 	margin: 0 auto;
 }
-	
+
 
 .quotename {
 	font-weight: 600;
@@ -161,8 +162,4 @@ footer p {
 	padding: 30px 0 20px 0;
 }
 
-
-
-
-
-
+/*ND: Did you have issues using float to make more than one column? Let me know if you need help with that.*/
