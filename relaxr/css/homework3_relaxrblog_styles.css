@@ -1,0 +1,226 @@
+body {
+    font-family: 'Open Sans';
+}
+
+
+header {
+    background-color: #033048;
+    font-size: 24px;
+    font-weight: 600;
+    color: #f9e42e;
+    padding-bottom: 100px;
+}
+
+
+li.relaxrheader {
+    color: #FFFFFF;
+    font-size: 1.25em;
+    font-weight: bold;
+    padding-right: 475px;
+
+}
+/*ND: I wouldn't add this extra space before your closing bracket. You also don't do it before this point.
+Remember, consistency is important.*/
+
+nav ul {
+    float: right;
+    padding: 35px 40px 25px 20px;
+}
+
+
+nav li {
+    float: left;
+    padding-right: 40px;
+
+}
+
+
+.maincolumn {
+    background-color: #f2f6f5;
+    font-size: 24px;
+    font-weight: 300;
+    color: #606161;
+    float: left;
+    width: 75%;
+
+}
+
+.maincolumn h2 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: left;
+    line-height: 125%;
+    color: #033048;
+    padding: 20px 25px 0px 60px;
+    margin: 20px;
+
+}
+
+.maincolumn img {
+    width: 800px;
+    margin: 10px 0px 5px 80px;
+
+}
+
+article p {
+    text-align: left;
+    line-height: 125%;
+    padding: 10px 25px 20px 60px;
+    margin: 20px;
+
+}
+
+
+hr {
+    width: 810px;
+    margin: 10px 0px 10px 80px;
+
+}
+
+.firstletter {
+    font-weight: 800;
+    font-size: 2em;
+    color: #033048;
+    float: left;
+    width: 5%;
+    padding-top: 3px;
+    margin: 1px;
+}
+
+.readmorelink {
+    font-weight: 600;
+    text-align: right;
+    color: #033048;
+
+}
+
+
+.sidecolumn {
+    background-color: #f2f6f5;
+    float: right;
+    width: 25%;
+    padding-bottom: 670px;
+}
+
+
+.categories {
+    font-size: 24px;
+    font-weight: 300;
+    color: #033048;
+    padding: 50px 5px 50px 5px;
+}
+
+
+.categories h3 {
+    font-size: 32px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+
+.categories p {
+    padding-bottom: 8px;
+}
+
+.aboutrelaxr {
+    font-size: 22px;
+    font-weight: 300;
+    color: #033048;
+    width: 80%;
+    padding: 30px 5px 50px 5px;
+}
+
+.aboutrelaxr h3 {
+    font-size: 32px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+
+.learnmore {
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+.adbox {
+    background-color: #f2f6f5;
+    padding-bottom: 50px;
+}
+
+
+.adbox p {
+    background-color: white;
+    color: #033048;
+    font-size: 24px;
+    font-weight: 600;
+    width: 75%;
+    text-align: center;
+    padding: 15px 10px 500px 10px;
+}
+
+
+#signupbox {
+    background-color: #f9e42e;
+    background-size: 100% 100%;
+    font-weight: 800;
+    font-size: 12px;
+    color: white;
+    clear: both;
+    padding: 20px 0 20px 0;
+}
+
+
+#signupbox p {
+    background-color: #033048;
+    border-radius: 5px;
+    text-align: center;
+    width: 10%;
+    clear: both;
+    padding: 15px 25px 15px 25px;
+    margin: 0 auto;
+}
+
+
+footer {
+    background-color: #000000;
+    background-size: 100% 100%;
+    font-weight: 800;
+    font-size: 24px;
+    color: #f9e42e;
+    clear: both;
+    padding: 20px 0px 20px 0px;
+}
+
+
+footer h3 {
+    text-align: center;
+    padding: 10px 20px 20px 20px;
+    margin-bottom: 10px;
+}
+
+
+.twitter {
+    text-align: right;
+    float: left;
+    width: 48.5%;
+}
+
+
+.facebook {
+    text-align: left;
+    float: right;
+    width: 47%;
+}
+
+
+footer p {
+    text-align: center;
+    font-size: 9px;
+    font-weight: 600;
+    color: white;
+    clear: both;
+    padding: 30px 0 20px 0;
+}
+/*ND: Nice, looks like you've gotten a good handle on floats*/
+
+/*ND: Did you have problems using psuedoclasses? Not seeing any hover actions here nor drop cases*/
